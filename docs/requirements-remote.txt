@@ -1,0 +1,4 @@
+paramiko>=3.4.0        # SSH-терминал, SFTP, SCP
+boto3>=1.34.0          # Amazon S3 и совместимые хранилища
+smbclient>=0.0.5       # SMB/CIFS (работает через smbprotocol)
+smbprotocol>=1.12.0    # зависимость smbclient, иногда ставится отдельно

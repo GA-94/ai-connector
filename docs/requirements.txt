@@ -1,0 +1,12 @@
+PyQt6>=6.7.0
+openai>=1.0.0
+pygments>=2.15.0
+pytest>=7.0.0
+
+# Удалённый терминал (SSH) и файловые хранилища: необязательные пакеты.
+# Без них программа работает, а соответствующие инструменты честно скажут,
+# что установить. Ставятся отдельно:  pip install -r docs/requirements-remote.txt
+
+#   paramiko   — SSH / SFTP / SCP
+#   boto3      — Amazon S3
+#   smbclient  — SMB / CIFS (чистый Python, годится для ARM)
